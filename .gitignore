@@ -1,0 +1,23 @@
+# Secrets: never commit. Use the matching *.example file.
+.env
+secrets.h
+# OS and editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+~$*
+
+# Firmware build output. Build system not yet recorded in the Technical Baseline; remove the unused block.
+.pio/
+build/
+*.elf
+*.hex
+*.bin
+# Python (companion, tools)
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Bench data stays out of Git; see data/README.md
+data/raw/

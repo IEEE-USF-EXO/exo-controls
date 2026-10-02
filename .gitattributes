@@ -1,0 +1,16 @@
+* text=auto
+
+# Shell and build scripts must stay LF
+*.sh text eol=lf
+
+# Compiled firmware images
+*.bin binary
+*.hex binary
+*.elf binary
+*.uf2 binary
+
+# Bench evidence
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary

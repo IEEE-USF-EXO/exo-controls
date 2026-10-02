@@ -1,0 +1,6 @@
+# Replace placeholders with GitHub usernames before first push.
+* @OscarC727
+/companion/optimizer/ @kietphantuantran
+/docs/state-machine/ @kietphantuantran
+# PROPOSED, pending Project Lead decision: require a Project Lead review on firmware limits.
+# /firmware/include/limits.h  @OSCAR_GH @LIAM_GH
