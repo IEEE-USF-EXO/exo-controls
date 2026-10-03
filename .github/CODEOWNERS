@@ -1,6 +1,11 @@
-# Replace placeholders with GitHub usernames before first push.
-* @OscarC727
-/companion/optimizer/ @kietphantuantran
-/docs/state-machine/ @kietphantuantran
-# PROPOSED, pending Project Lead decision: require a Project Lead review on firmware limits.
-# /firmware/include/limits.h  @OSCAR_GH @LIAM_GH
+# CODEOWNERS. Org teams, not individual accounts.
+# Org convention Section 4: * is the project leads team; team paths are the owning team.
+# A team reference requires that team to hold write access on this repo.
+* @IEEE-USF-EXO/exo-leads
+/firmware/ @IEEE-USF-EXO/exo-controls
+/companion/ @IEEE-USF-EXO/exo-controls
+/data/ @IEEE-USF-EXO/exo-controls
+/docs/ @IEEE-USF-EXO/exo-controls
+/tools/ @IEEE-USF-EXO/exo-controls
+# PROPOSED, pending Project Lead decision D-3: require a Project Lead review on firmware limits.
+# /firmware/include/limits.h @IEEE-USF-EXO/exo-leads
