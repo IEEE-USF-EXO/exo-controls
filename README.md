@@ -67,3 +67,4 @@ Controls: https://drive.google.com/drive/folders/1Pdx0N6EHctdZKqb7P29tVHuNVr8v8y
 4. No lithium-ion pack assembly until a reviewed build procedure exists.
 5. Lab work in ENG 208 requires the lab safety courses to be complete.
 6. Never commit passwords, tokens, keys, or Wi-Fi credentials. Use an ignored file and a committed example file.
+7. Nothing at battery pack voltage is connected to an actuator until the Project Leads confirm in writing that the actuator's allowed input voltage covers a full pack.
